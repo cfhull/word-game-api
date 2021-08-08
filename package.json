@@ -1,0 +1,25 @@
+{
+  "name": "divergent-association-task",
+  "version": "1.0.0",
+  "description": "The DAT measures creativity in under 4 minutes. It involves thinking of 10\r unrelated words. Creative people choose words with greater semantic distances\r between them.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayolson/divergent-association-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayolson/divergent-association-task/issues"
+  },
+  "homepage": "https://github.com/jayolson/divergent-association-task#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
